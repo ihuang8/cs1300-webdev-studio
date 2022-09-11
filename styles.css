@@ -2,13 +2,24 @@
   background-color: lightblue;
 }
 
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 /* Uncomment below if images are way too big.
 Selects all image tags and makes them 500px;
  */
-/*img {*/
-/*  width: 500px;*/
-/*}*/
+img {
+ width: 400px;
+ height: 600px;
+ padding: 10px;
+}
+
+img:hover {
+  opacity: 75%;
+}
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  align-content: center;
 }
